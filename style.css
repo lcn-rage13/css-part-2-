@@ -1,0 +1,26 @@
+
+.Images{display:flex; flex-direction: row; justify-content: space-evenly}
+h1 {
+padding-left: 500px;
+
+    color: #ccc91a
+
+    
+        
+}
+body {
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+a:link{color:rgba(41, 221, 24, 0.918)}
+a:visited{color:mediumslateblue}
+.items p{
+    position:absolute;
+    top:13.5%;
+    opacity:0;
+}
+.items:hover p {opacity:1}
+.items :hover img{opacity:0.5}
